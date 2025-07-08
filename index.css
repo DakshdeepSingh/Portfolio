@@ -17,14 +17,14 @@ body {
     bottom: 20px;
     right: 20px;
     z-index: 99;
-    font-size: 25px;
+    font-size: 30px;
     border: 1px solid white;
     border-radius: 49%;
     outline: none;
     background-color: #002583;
     color: white;
     cursor: pointer;
-    /* padding: 15px; */
+    padding-bottom: 6px;
 }
 
 .top-btn>a {
@@ -38,7 +38,6 @@ body {
 }
 
 .navbar {
-    /* background-color: #002583; */
     background-color: initial;
     border-bottom: none;
     height: 85px;
@@ -48,9 +47,6 @@ body {
     display: block;
     transition: top 0.3s;
     z-index: 999;
-    /* padding: 30px; */
-    /* padding-left: 20px; */
-    /* overflow: hidden; */
 }
 
 .navbar a {
@@ -309,12 +305,6 @@ section>h1 {
     height: 100%;
     width: 0px;
 }
-
-/* .progress > span > progress
-{
-    height: 100%;
-    width: 90%;
-} */
 
 .work {
     border: 1px solid black;
