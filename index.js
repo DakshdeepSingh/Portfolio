@@ -31,3 +31,35 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+ScrollReveal().reveal('.about', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    easing: 'ease-in-out',
+    reset: false
+});
+
+ScrollReveal().reveal('.experience', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 200,
+    easing: 'ease-in-out'
+});
+
+ScrollReveal().reveal('.work', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 300,
+    easing: 'ease-in-out'
+});
+
+ScrollReveal().reveal('.contact-me', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px',
+    delay: 400,
+    easing: 'ease-in-out'
+});
